@@ -1,0 +1,18 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-image: linear-gradient(rgba(231, 0, 0, 0.6), rgba(231, 0, 0, 0.6)), url('./images/bg-intro-desktop.png');
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, strong, a {
+  font-weight: 700;
+}
+
+a {
+  color: #e18085;
+}
+
+a:hover, a:focus {
+  color: #b16468;
+}

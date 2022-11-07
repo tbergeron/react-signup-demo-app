@@ -1,43 +1,70 @@
-### Objective
+# Getting Started with Create React App
 
-Using JavaScript and React, your assignment is to implement a responsive signup form and get it looking as close to the design as possible.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Brief
+## Available Scripts
 
-The design team at Brainpad Consulting has provided you with designs for a new signup form! Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+In the project directory, you can run:
 
-### Tasks
+### `npm start`
 
--   Implement assignment using:
-    -   Language: **JavaScript**
-    -   Framework: **React**
--   Your users should be able to:
-    -   View the optimal layout for the site depending on their device's screen size
-    -   See hover states for all interactive elements on the page
-    -   Receive an error message when the `form` is submitted if:
-        -   Any `input` field is empty. The message for this error should say _"[Field Name] cannot be empty"_
-        -   The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Looks like this is not an email"_
--   You will find all the required assets in the `/images` folder. The assets are already optimized.
--   There is also a `style-guide.md` file, containing the information you'll need, such as color palette and fonts.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Evaluation Criteria
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
--   **JavaScript** best practices
--   Show us your work through your commit history
--   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program
--   Completeness: did you complete the features?
--   Correctness: does the functionality act in sensible, thought-out ways?
--   Maintainability: is it written in a clean, maintainable way?
--   Testing: is the system adequately tested?
+### `npm test`
 
-### Deliverables
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Make sure to include all source code in the repository. 
+### `npm run build`
 
-### CodeSubmit
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Please organize, design, test and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-All the best and happy coding,
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The Brainpad Consulting Team
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

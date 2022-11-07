@@ -1,0 +1,62 @@
+.SignupForm .btn-info {
+  box-shadow: 0rem 0.5rem rgb(0 0 0 / 25%);
+}
+
+.SignupForm .btn-info {
+  background-color: #5d55a3;
+  border: none;
+  color: white;
+}
+.SignupForm .btn-info:hover,
+.SignupForm .btn-info:active,
+.SignupForm .btn-info:focus {
+  background-color: #443e77;
+  color: white;
+}
+
+.SignupForm .btn-info strong {
+  margin-right: 5px;
+}
+
+.SignupForm .vstack {
+  background-color: white;
+}
+
+.SignupForm .vstack ul {
+  margin-bottom: 0;
+}
+
+.SignupForm form input {
+  border: 2px #dedede solid;
+  font-weight: bold;
+}
+
+.SignupForm form input:focus {
+  border-color: #605b79;
+}
+
+.SignupForm form button {
+  box-shadow: 0rem 0.3rem rgb(83 172 133 / 50%);
+}
+
+.SignupForm form button {
+  background-color: #37cc8a;
+  border-color: #66b491;
+}
+
+.SignupForm form button:active,
+.SignupForm form button:focus,
+.SignupForm form button:hover {
+  border-color: #66b491;
+  background-color: #299f6a;
+  color: white;
+}
+
+.SignupForm form .is-invalid,
+.SignupForm form .is-invalid::placeholder {
+  color: #dc3545;
+}
+
+.SignupForm form .invalid-feedback {
+  text-align: right;
+}
